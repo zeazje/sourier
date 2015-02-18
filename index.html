@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Overflow by HTML5 UP</title>
+		<title>Sourier | 昭煦</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -21,6 +21,203 @@
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		
+	<!-- Javascript -->
+        <script src="assets/js/jquery-1.8.2.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/jquery.countdown.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+
+		<style>
+		/***** Coming Soon *****/
+
+.coming-soon {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.inner-bg {
+    padding: 55px 0 60px 0;
+    background: url(../img/pattern-3.png);
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+}
+
+.coming-soon h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 1px 7px rgba(0,0,0,.2);
+}
+
+.coming-soon p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 36px;
+    text-shadow: 0 1px 7px rgba(0,0,0,.2);
+}
+
+.timer {
+    margin-top: 40px;
+    text-shadow: 0 1px 5px rgba(0,0,0,.1);
+}
+
+.timer .days-wrapper,
+.timer .hours-wrapper,
+.timer .minutes-wrapper,
+.timer .seconds-wrapper {
+    display: inline-block;
+    width: 160px;
+    height: 140px;
+    margin: 0 10px;
+    padding-top: 20px;
+    background: #2d2d2d; /* browsers that don't support rgba */
+    background: rgba(45,45,45,.7);
+    font-size: 18px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+}
+
+.timer .days-wrapper:hover,
+.timer .hours-wrapper:hover,
+.timer .minutes-wrapper:hover,
+.timer .seconds-wrapper:hover {
+    background: #e75967 url(../img/pattern-2.png);
+    text-shadow: none;
+}
+
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+
+/***** Media Queries *****/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .logo h1 {
+        padding-left: 0;
+    }
+
+    .call-us p {
+        padding-right: 0;
+    }
+
+    .timer .days-wrapper,
+    .timer .hours-wrapper,
+    .timer .minutes-wrapper,
+    .timer .seconds-wrapper {
+        width: 140px;
+        height: 120px;
+        margin: 0 7px;
+        padding-top: 20px;
+        -moz-border-radius: 70px;
+        -webkit-border-radius: 70px;
+        border-radius: 70px;
+    }
+
+    .timer .days,
+    .timer .hours,
+    .timer .minutes,
+    .timer .seconds {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .logo h1 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .call-us {
+        padding-bottom: 7px;
+        text-align: center;
+    }
+
+    .call-us p {
+        padding-right: 0;
+    }
+
+    .inner-bg {
+        padding: 45px 0 50px 0;
+    }
+
+    .coming-soon h2 {
+        font-size: 36px;
+        padding: 0 20px;
+    }
+
+    .coming-soon p {
+        padding: 0 20px;
+    }
+
+    .timer .days-wrapper,
+    .timer .hours-wrapper,
+    .timer .minutes-wrapper,
+    .timer .seconds-wrapper {
+        width: 140px;
+        height: 120px;
+        margin: 7px;
+        padding-top: 20px;
+        -moz-border-radius: 70px;
+        -webkit-border-radius: 70px;
+        border-radius: 70px;
+    }
+
+    .timer .days,
+    .timer .hours,
+    .timer .minutes,
+    .timer .seconds {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .subscribe h3 {
+        padding: 0 20px;
+        font-size: 28px;
+    }
+
+    .subscribe p {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .subscribe form {
+        padding: 0 20px;
+    }
+
+    .subscribe form input {
+        width: 90%;
+    }
+
+    .subscribe form button {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+}
+		</style>
 	</head>
 	<body>
 
@@ -41,85 +238,47 @@
 					<h2>这里是昭煦（Sourier）</h2>
 				</header>
 				<div id="lot">
-				<span style="text-align:center;"><img src="./images/sourierpage.jpg" width="1000px">
+				<img src="./images/sourierpage.jpg"/>
 				</div>
 				<footer>
-					<a href="#first" class="button style2 scrolly">详情 ↓ </a>
+					<a href="#first" class="button style2 scrolly">详情 ↓ </a><br/>
 				</footer>
 			</section>
-		<div id="visuable">
-		<!-- Feature 1 -->
-			<article id="first" class="container box style1 right">
-				<a href="http://ineedchemicalx.deviantart.com/art/Time-goes-by-too-fast-335982438" class="image full"><img src="images/pic01.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Lorem ipsum<br />
-						dolor sit amet</h2>
-					</header>
-					<p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
-				</div>
-				</article>
-			
-		<!-- Feature 2 -->
-			<article class="container box style1 left">
-				<a href="http://ineedchemicalx.deviantart.com/art/Kingdom-of-the-Wind-348268044" class="image full"><img src="images/pic02.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Mollis posuere<br />
-						lectus lacus</h2>
-					</header>
-					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
-				</div>
-			</article>
 		
-		<!-- Portfolio -->
-			<article class="container box style2">
-				<header>
-					<h2>Magnis parturient</h2>
-					<p>Justo phasellus et aenean dignissim<br />
-					placerat cubilia purus lectus.</p>
-				</header>
-				<div class="inner gallery">
-					<div class="row flush">
-						<div class="3u"><a href="images/fulls/01.jpg" class="image full"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
-						<div class="3u"><a href="images/fulls/02.jpg" class="image full"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
-						<div class="3u"><a href="images/fulls/03.jpg" class="image full"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
-						<div class="3u"><a href="images/fulls/04.jpg" class="image full"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
-					</div>
-					<div class="row flush">
-						<div class="3u"><a href="images/fulls/05.jpg" class="image full"><img src="images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>
-						<div class="3u"><a href="images/fulls/06.jpg" class="image full"><img src="images/thumbs/06.jpg" alt="" title="Different." /></a></div>
-						<div class="3u"><a href="images/fulls/07.jpg" class="image full"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
-						<div class="3u"><a href="images/fulls/08.jpg" class="image full"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
-					</div>
-				</div>
-			</article>
-		
-		<!-- Contact -->
-			<article class="container box style3">
-				<header>
-					<h2>Nisl sed ultricies</h2>
-					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
-				</header>
-				<form>
-					<div class="row half">
-						<div class="6u"><input type="text" class="text" name="name" placeholder="Name" /></div>
-						<div class="6u"><input type="text" class="text" name="email" placeholder="Email" /></div>
-					</div>
-					<div class="row half">
-						<div class="12u">
-							<textarea name="message" placeholder="Message"></textarea>
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
-							<ul class="actions">
-								<li><a href="#" class="button form">Send Message</a></li>
-							</ul>
-						</div>
-					</div>
-				</form>
-			</article>
+	
+	<section id="first">
+	   <!-- Coming Soon -->
+        <div class="coming-soon">
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <h2>We'll be finished at 2014-06-07</h2>
+                            <p>We are working very hard on the new version of our site. It will bring a lot of new features. Stay tuned!</p>
+						<!--
+                            <div class="timer">
+                                <div class="days-wrapper">
+                                    <span class="days"></span> <br>days
+                                </div>
+                                <div class="hours-wrapper">
+                                    <span class="hours"></span> <br>hours
+                                </div>
+                                <div class="minutes-wrapper">
+                                    <span class="minutes"></span> <br>minutes
+                                </div>
+                                <div class="seconds-wrapper">
+                                    <span class="seconds"></span> <br>seconds
+                                </div>
+                            </div>
+						-->
+						<P><a href="./previous/index.html" target="_blank" title="查看旧版本">查看旧版首页</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>	
+	
 		
 		<!-- Generic -->
 		<!--
@@ -277,7 +436,7 @@
 				</section>
 			</article>
 		-->
-		</div>
+		
 		
 		<section id="footer">
 			<ul class="icons">
@@ -292,7 +451,7 @@
 			
 			<p style="text-align:center;padding-top:14px;">　　更多敬请期待...　　</p>
 			</ul>
-			</br></br></br></br>
+			<br/><br/><br/><br/>
 			<div class="copyright">
 				<ul class="menu">
 				    <li>Sourier 昭煦</li>
